@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap!</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body class="container" onload="init()">
+    <h1>Book Store Stock Interface</h1>
+    <div class="alert alert-info">
+        Welcome To The Book-Store ProtoType!
+    </div>
+
+    <button type="button" class="btn btn-info">
+        Notifications
+        <span class="badge badge-light">none</span>
+    </button>
+
+
+    <table class="table table-bordered table-dark">
+        <thead>
+            <tr>
+                <th scope="col">book-Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody id="booksTbody">
+        </tbody>
+    </table>
+
+    <div id="modalContainer">
+
+    </div>
+
+    <div id="readModalContainer">
+
+    </div>
+
+
+
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
